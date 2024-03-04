@@ -1,6 +1,16 @@
 module Lib
-    ( someFunc
-    ) where
+    (insert, findMin, deleteMin) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+data Tree a = Empty | Node (Tree a) a (Tree a)
+    deriving Show
+
+type FibHeap a = [Tree a]
+
+insert :: a -> FibHeap a -> FibHeap a
+insert = error "todo"
+
+findMin :: FibHeap a -> a
+findMin = error "todo"
+
+deleteMin :: FibHeap a -> FibHeap a
+deleteMin = error "todo"

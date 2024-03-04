@@ -36,7 +36,7 @@ This command will compile your project. Stack will automatically download the co
 
 ## Usage
 
-After building the project, you can run your application or an example within the project. Here's a basic way to use the Fibonacci heap from the command line, assuming you have an executable setup:
+After building the project, you can run the application or an example within the project. Here's a basic way to use the Fibonacci heap from the command line, assuming you have an executable setup:
 ```bash
 stack exec FibonacciHeap-exe
 ```
@@ -47,7 +47,7 @@ Here is a basic example of how to use the Fibonacci heap implemented in this rep
 import FibonacciHeap
 
 -- Create a new empty Fibonacci heap
-let emptyHeap = empty
+let emptyHeap = []
 
 -- Insert elements into the heap
 let heap = foldl insert emptyHeap [5, 3, 7, 1, 9, 4]
