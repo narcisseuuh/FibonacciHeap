@@ -1,7 +1,7 @@
 module Lib
     (insert, findMin, deleteMin) where
 
-data Tree a = Empty | Node (Tree a) a (Tree a)
+data Tree a = Empty | Node a [Tree a]
     deriving Show
 
 type FibHeap a = [Tree a]
