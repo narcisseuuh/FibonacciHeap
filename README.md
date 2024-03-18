@@ -47,7 +47,7 @@ Here is a basic example of how to use the Fibonacci heap implemented in this rep
 import FibonacciHeap
 
 -- Create a new empty Fibonacci heap
-let emptyHeap = []
+let emptyHeap = Empty
 
 -- Insert elements into the heap
 let heap = foldl insert emptyHeap [5, 3, 7, 1, 9, 4]
